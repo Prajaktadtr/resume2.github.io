@@ -1,0 +1,240 @@
+body
+{
+    margin: 0px;padding: 0px; background: #ededed;
+    /* display: flex; */
+}
+.resume-main
+{
+    height: 1500px;
+    width: 1000px;
+    /* background: url(img/2.jpg); */
+    background-color: aliceblue;
+    margin: 50px auto;
+    /* background-size: contain 100%; */
+    font-family: system-ui;
+    /* display: flex; */
+}
+.left
+{
+    width: 465px;
+    float: left;
+    padding: 25px 0px 0px 35px;
+}
+.right
+{
+    width: 250px;float: left;padding: 25px;
+    /* display: flex; */
+}
+
+.clearfix{
+    clear: both;
+    /* display: flex; */
+}
+h1
+{
+    text-transform: uppercase; font-size: 23px; color:#fb7e52;
+}
+.clearfix{color: #f1685e;}
+
+h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    color:#fb7e52;
+}
+.fa{
+    color: #f1685e;
+}
+.p1{line-height: 15px;}
+.heading
+{
+    background: linear-gradient(45deg,#ffae24,#ee2981) ;
+    padding: 5px;
+    width: 350px;
+    margin-left: -35px;
+    padding-left: 31px;
+    padding-right: 15px;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.heading .fa{
+    color: white;
+}
+
+heading .fa-solid{
+    color: white;
+}
+.s{
+    width: 22%;
+    float: left;
+}
+/* .circle
+{
+    width: 10%;
+    float: left;
+} */
+/* .heading.clearfix{
+    color: white;
+
+} */
+/* .resume-main{width: 22%; float: left;} */
+
+.circle{width: 10%;float: left;}
+
+.con{width: 40%;float:left;}
+
+.cir{width: 10px; 
+    height: 10px;
+     background: linear-gradient(45deg,#fa824e,#f13b75);
+     border-radius: 10px;
+}
+.s p{font-weight:bold;
+    margin-top: 10px;
+    color: #3c3939; 
+    font-size: 14px;}
+.con h3{margin-top:10px;
+    margin-bottom: 0px; 
+    color:#3c3939; 
+    font-size: 14px;
+}
+
+.con p{
+    font-size: 12px;
+    margin-top: 2px;
+    color:#3c3939 ;
+    margin-bottom: 0px;
+}
+
+.icon-main-box{margin-left: -22px;}
+
+.icon-box{
+    width:15%;
+    float:left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.icon-box .fa{
+    background: linear-gradient(341deg,#f13c74,#fea02f);
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+    border-radius: 27px;
+    height: 20px;
+
+}
+.icon-box p{
+    margin: 0;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #424242;
+}
+.profile{position: relative; height:200px;}
+.profile img{
+border-radius: 70%;
+width: 160px;
+left: 77px;
+position: absolute;
+top:18px;
+}
+.name{font-size: 37px;
+    text-align: center;
+    color: #2e2d2d;
+    margin-bottom: 0px;
+}
+.name span{color: #f76d60;}
+
+name .h2{color:#2e2d2d;
+     margin-top: 0px;
+     font-weight: 400; 
+     text-align: center;
+    }
+
+.p2{font-size: 20px;}
+
+h1 .fa{
+    background:linear-gradient(341deg,#f13c74,#fea02f);
+    padding: 10px 13px;
+    font-size: 20px;
+    color: white;
+    border-radius: 27px;
+    float: right;
+    margin-top: -5px;
+}
+#progress{background:#14141447; 
+    border-radius: 13px;
+     height: 8px;
+      width: 100%;
+    }
+#progress:after{
+    content: '';
+    display: block;
+    background: linear-gradient(45deg,#f13c74,#f8724f);
+    width:60%;
+    height: 100%;
+    border-radius: 9px;
+}
+    
+    #progress1{background:#14141447;
+         border-radius: 13px;
+          height: 8px;
+           width: 100%;
+        }
+    #progress1:after{
+    content: '';
+    display: block;
+    background: linear-gradient(45deg,#f13c74,#f8724f);
+    width:70%;
+    height: 100%;
+    border-radius: 9px;
+
+
+}
+#progress2{background:#14141447;
+    border-radius: 13px;
+     height: 8px;
+      width: 100%;
+   }
+#progress2:after{
+    content: '';
+    display: block;
+    background: linear-gradient(45deg,#f13c74,#f8724f);
+    width:60%;
+    height: 100%;
+    border-radius: 9px;
+
+
+}
+#progress3{background:#14141447;
+    border-radius: 13px;
+     height: 8px;
+      width: 100%;
+   }
+#progress3:after{
+    content: '';
+    display: block;
+    background: linear-gradient(45deg,#f13c74,#f8724f);
+    width:80%;
+    height: 100%;
+    border-radius: 9px;
+
+
+}
+#progress4{background:#14141447;
+    border-radius: 13px;
+     height: 8px;
+      width: 100%;
+   }
+#progress4:after{
+    content: '';
+    display: block;
+    background: linear-gradient(45deg,#f13c74,#f8724f);
+    width:60%;
+    height: 100%;
+    border-radius: 9px;
+
+
+}
